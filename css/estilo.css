@@ -1,0 +1,584 @@
+/*=============================================
+ contenido de  ceremonias TAPETES DE YUTE
+=============================================*/
+.info_general {
+  font-family: 'gothic_subtitle';
+  color: #5021b2;
+  font-weight: 500; }
+
+.sub_title {
+  font-size: 18px;
+  color: #0009;
+  font-family: 'gothic_subtitle_negrita'; }
+
+.descripcion {
+  font-family: 'gothic_subtitle';
+  color: #5021b2;
+  font-weight: 500; }
+
+.mas_detalle {
+  font-family: 'cen_gothic'; }
+
+.mas_detalle span {
+  font-family: 'Cinzel', serif;
+  font-size: 14px; }
+
+strong {
+  font-family: 'gothic_subtitle';
+  color: #000000a6; }
+
+.nota {
+  font-size: 10px;
+  font-weight: 700;
+  color: #5021b2;
+  margin-top: 10px; }
+  .nota .fa-asterisk {
+    font-size: 6px; }
+
+.more_info {
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 10px; }
+  .more_info .fa-asterisk {
+    font-size: 6px; }
+
+.informacion_material {
+  font-family: 'Gothic_parrafo';
+  font-size: 16px;
+  font-weight: 500;
+  color: #4e4949;
+  line-height: 1.5em; }
+
+.table {
+  font-size: 14px;
+  font-family: 'Cinzel', serif; }
+
+.mydicador {
+  background-color: white;
+  margin-top: 5px; }
+
+.indicador-1 {
+  width: 250px; }
+
+.img-fluid {
+  padding: 10px;
+  cursor: pointer; }
+
+.titulo {
+  width: 120px;
+  position: absolute;
+  z-index: 10;
+  margin-top: -80px;
+  margin-left: 40px; }
+  .titulo h5 {
+    color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer; }
+
+#carusel_tapete {
+  margin-top: 10px; }
+
+.fa-angle-left {
+  font-size: 70px;
+  color: #5cb0db; }
+
+.fa-angle-right {
+  font-size: 70px;
+  color: #5cb0db; }
+
+.img-fluid {
+  padding: 5px !important; }
+
+/*=============================================
+  General media query
+=============================================*/
+.detalles_precios {
+  list-style: none;
+  padding: 2px; }
+  .detalles_precios li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    font-family: 'Cinzel', serif; }
+    .detalles_precios li i {
+      font-size: 6px;
+      font-weight: 600; }
+
+@media (max-width: 767px) {
+  .precio_1 {
+    display: none; }
+
+  .titilo_precio {
+    margin-right: 0px !important; } }
+h3 {
+  font-size: 18px;
+  color: #4d4b4bb3;
+  font-family: cen_gothic;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-weight: 500; }
+
+.info_acerca {
+  font-family: 'Gothic_parrafo';
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  color: #757779; }
+
+.acerca_2 span {
+  margin-left: 400px;
+  font-family: 'Gothic_parrafo';
+  color: #757779; }
+
+.users {
+  text-align: center; }
+  .users .icon_users {
+    font-size: 100px;
+    color: #bfbfbf; }
+
+.puntos {
+  text-align: center;
+  font-size: 30px;
+  color: #bfbfbf; }
+
+.container_home {
+  height: 75px; }
+
+.home_contact {
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+  cursor: pointer; }
+  .home_contact a {
+    text-decoration: none; }
+  .home_contact p {
+    font-family: Gothic;
+    font-size: 16px; }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .acerca_2 span {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center; } }
+@media (max-width: 767px) {
+  .info_acerca {
+    font-family: Gothic;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #757779; }
+
+  .acerca_2 span {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center; } }
+/*=============================================
+  menu galeria hover de secction
+=============================================*/
+.contenedor-images {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px; }
+
+.contenedor-images .imagen {
+  width: 25%;
+  position: relative;
+  height: 170px;
+  margin-bottom: 0; }
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  overflow: hidden; }
+
+.overlay span {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: 'Cinzel', serif;
+  font-weight: 500; }
+
+.imagen:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+  background: rgba(176, 178, 179, 0.9); }
+
+.montaje {
+  margin-bottom: 30px;
+  background: #848484;
+  width: 500px;
+  border: rebeccapurple;
+  border-radius: 5px; }
+
+/*=============================================
+  secction logo
+=============================================*/
+.contenedor_logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+.logo_header {
+  width: 150px;
+  height: 104px; }
+  .logo_header img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 4px;
+    margin-left: -5px; }
+
+.contacto {
+  width: 140px;
+  height: 95px; }
+
+.contac_bt {
+  margin-top: 45px;
+  font-family: 'Cinzel', serif;
+  font-weight: 600; }
+
+.contac_bt:hover {
+  background: white !important;
+  color: #dd3080; }
+
+.clearfix {
+  clear: both; }
+
+hr.style1 {
+  border-top: 6px solid #8c8b8b; }
+
+.line_header {
+  position: relative; }
+  .line_header hr {
+    border-top: 6px solid #8c8b8b;
+    margin-top: 0 !important; }
+
+/*logo por cada section*/
+.sub_logo {
+  width: 140px;
+  height: 95px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top: 15px; }
+  .sub_logo img {
+    width: 100%;
+    height: 100%; }
+
+/*=============================================
+  section de montaje y transportacion
+=============================================*/
+section {
+  margin-bottom: 65px; }
+
+h1 {
+  font-family: Cinzel, serif;
+  font-size: 25px;
+  margin: 0;
+  color: #4d4b4bb3;
+  font-weight: 500;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  padding: 7px;
+  color: white;
+  margin-left: 25px;
+  padding-top: 10px; }
+
+.detalles {
+  font-family: "cen_gothic";
+  font-size: 18px;
+  color: #000000ba;
+  line-height: 1.5em;
+  letter-spacing: 0.6px; }
+
+.informacion {
+  font-family: 'Gothic_parrafo';
+  font-size: 16px;
+  color: #4e4949;
+  line-height: 1.5em;
+  letter-spacing: 0.6px;
+  text-align: justify; }
+
+.titilo_precio {
+  color: #5021b2;
+  margin-right: 260px;
+  font-family: 'cen_gothic'; }
+
+.precio_1 {
+  list-style: none; }
+
+.precio_1 li {
+  font-family: 'Gothic_parrafo';
+  font-size: 16px; }
+
+.precio_1 .icon_tr {
+  font-size: 8px;
+  color: #5021b2; }
+
+.precio_2 {
+  list-style: none;
+  padding: 0;
+  margin: 2; }
+
+.precio_2 li {
+  font-family: 'Gothic_parrafo';
+  font-size: 12px; }
+
+.precio_2 .icon_tr {
+  font-size: 8px;
+  color: #5021b2; }
+
+.precio_linea {
+  width: 10px; }
+
+.precios {
+  width: 396px;
+  text-align: justify; }
+  .precios p {
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Gothic_parrafo'; }
+
+.session {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.caja_session {
+  width: 100px;
+  height: 30px; }
+  .caja_session a {
+    font-family: 'Cinzel', serif;
+    font-weight: 600; }
+
+/*=============================================
+  menu galeria hover de secction media query
+=============================================*/
+@media screen and (max-width: 1000px) {
+  .contenedor-imagenes {
+    width: 90%; } }
+@media screen and (max-width: 700px) {
+  .contenedor-imagenes {
+    width: 90%; }
+
+  .contenedor-imagenes .imagen {
+    width: 48%; } }
+@media screen and (max-width: 450px) {
+  .contenedor-imagenes {
+    width: 98%; }
+
+  .contenedor-imagenes .imagen {
+    width: 80%; } }
+  /*=============================================
+  General media query
+=============================================*/
+@media (max-width: 991px) and (min-width: 768px) {
+  .overlay span {
+    font-size: 20px; } }
+@media (max-width: 767px) {
+  .overlay span {
+    font-size: 10px;
+    text-align: justify;
+    text-align: center; }
+
+  .detalles {
+    margin-left: 0px; }
+
+  .informacion {
+    font-size: 14px; }
+
+  h1 {
+    font-family: Cinzel, serif;
+    font-size: 14px;
+    margin: 0;
+    color: #4d4b4bb3;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+    margin-top: 45px;
+    margin-bottom: 53px;
+    padding: 7px;
+    color: white;
+    margin-left: 25px;
+    padding-top: 10px; }
+
+  .montaje {
+    margin-bottom: 30px;
+    background: #848484;
+    width: 290px;
+    border: rebeccapurple;
+    border-radius: 5px; }
+
+  .logo_header {
+    width: 102px;
+    height: 82px; }
+
+  .contacto {
+    width: 76px;
+    height: 66px; }
+
+  .contac_bt {
+    margin-top: 34px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 0.5rem; }
+
+  .caja_session {
+    width: -1px;
+    height: 0px; } }
+.ir_arriba {
+  display: none;
+  padding: 10px;
+  background: #212529;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 20px;
+  margin-bottom: 5px; }
+  .ir_arriba .fa-angle-up {
+    font-size: 30px; }
+  .ir_arriba p {
+    font-family: 'Gothic_parrafo';
+    font-size: 12px; }
+
+.flecha_arriba {
+  text-align: center; }
+
+.footer {
+  background: white; }
+
+.caja-footer {
+  display: flex;
+  flex: 1 0;
+  justify-content: center;
+  align-items: center; }
+
+.caja-footer p {
+  margin-top: 15px;
+  font-family: Gothic;
+  font-size: 15px; }
+
+.linea_footer {
+  margin-bottom: 0.4rem !important; }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .ir_arriba {
+    opacity: 0.6;
+    right: 10px; } }
+@media (max-width: 991px) and (min-width: 768px) {
+  .ir_arriba {
+    opacity: 0.6;
+    right: 10px; } }
+@media (max-width: 767px) {
+  .ir_arriba {
+    opacity: 0.6;
+    right: 5px; } }
+@font-face {
+  font-family: 'cen_gothic';
+  src: url(../fonts/GOTHICBI.TTF); }
+@font-face {
+  font-family: 'gothic_subtitle';
+  src: url(../fonts/GOTHIC.TTF); }
+@font-face {
+  font-family: 'gothic_subtitle_negrita';
+  src: url(../fonts/GOTHICB.TTF); }
+@font-face {
+  font-family: 'Gothic_parrafo';
+  src: url(../fonts/CenturyGothic.ttf); }
+body {
+  background: #8c8b8b; }
+
+.fondo_contenedor {
+  background: url("../images/fondo.jpg");
+  background-attachment: fixed;
+  box-shadow: 0px 0px 2px #80808057;
+  padding: 0px; }
+
+.bt_title {
+  background: #848484;
+  width: 281px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #b9b7b7; }
+
+.bt_title_iluminacion {
+  background: #848484;
+  width: 335px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #b9b7b7; }
+
+.icono_circle {
+  font-size: 7px; }
+
+.fa-home {
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: -20px;
+  color: #000; }
+
+.fa-home:hover {
+  color: #dd3080; }
+
+.each {
+  font-size: .6rem; }
+
+.fondo_pregunda {
+  background: url(../images/img_preguntas.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fondo_pregunda {
+  width: 100%;
+  height: 800px;
+  position: relative; }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .fondo_pregunda {
+    width: 100%;
+    height: 900px;
+    position: relative; } }
+@media (max-width: 767px) {
+  .fondo_pregunda {
+    width: 100%;
+    height: 1020px;
+    position: relative; } }
+
+/*# sourceMappingURL=estilo.css.map */

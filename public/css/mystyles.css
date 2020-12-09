@@ -1,0 +1,108 @@
+/*menu header o navbar---------------*/
+.app-header {
+    background-color: #041c39 !important;
+}
+.app-header__logo {
+    background-color: #041c39 !important;
+}
+.app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+    background-color: #041c39 !important;
+}
+.app-sidebar {
+    background-color: #041c39 !important;
+}
+.app-menu__item:hover, .app-menu__item:focus {
+    background: #fff;
+    border-left-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*imagen de perfil----------------------*/
+.perfil{
+    width: 80px;
+}
+.title_us{
+    color:white;
+    text-align: center;
+}
+.perfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.font-weight-bold{
+    font-size: 18px;
+    padding: 2px;
+}
+.tile_assitence{
+    font-size: 25px;
+}
+
+/*boton de listar usuarios de asintence*/
+.cont_users{
+    background: #117a8b;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.cerrar{
+    margin-left: 455px;
+    height: 35px;
+    width: 60px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.title_user{
+    margin-left: 13px;
+}
+
+.colorTable{
+    background: #117a8b;
+}
+
+/*footer pie de paginas------------*/
+footer{
+    background-color: #041c39 !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    color: white;
+    z-index: 1000;
+    position: fixed;
+}
+/*Ajuste de select2-----------------------*/
+.select2 {
+    width:100%!important;
+}
+@media screen and (max-width: 767px) {
+    .select2 {
+        width: 100% !important;
+    }
+}
+/*media querys----------------------------*/
+@media (max-width:991px) and (min-width:768px){
+    .cerrar{
+        margin-left: 430px;
+        height: 35px;
+        width: 60px;
+        margin-top: 3px;
+        cursor: pointer;
+    } 
+}
+
+@media (max-width:767px){
+    footer p{
+        font-size: 8px;
+        margin-top: 2px;
+    }
+    .cerrar{
+        margin-left: 430px;
+        height: 35px;
+        width: 60px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+}
